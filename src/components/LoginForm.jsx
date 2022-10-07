@@ -17,7 +17,7 @@ const initialData = Object.freeze({
     const handleSubmit = (e)=>{
         e.preventDefault() //prevent the page refresh
         
-        console.log(setFormData({...formData}))
+        // console.log(setFormData({...formData}))
     }
   return (
 <div className="bg-yellow-400 h-screen overflow-hidden flex items-center justify-center">
